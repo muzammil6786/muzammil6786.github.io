@@ -39,11 +39,11 @@ navbar.classList.remove("active");
 
 // scroll to top
 
-// ScrollReveal({
-//   distance: "80px",
-//   duration: 2000,
-//   delay: 200,
-// });
+ScrollReveal({
+  distance: "80px",
+  duration: 2000,
+  delay: 200,
+});
 
 ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
 ScrollReveal().reveal(".home-img, .skills-container, .contact form", {
@@ -99,10 +99,10 @@ document.getElementById("dwresume").addEventListener("click", function () {
 // redirect to github
 
 document.getElementById("figmabtn").addEventListener("click", function () {
-  window.open("https://github.com/RajatKumarJangid/adamant-knowledge-2074", "_blank");
+  window.open("https://github.com/muzammil6786/adamant-knowledge-2074", "_blank");
 });
 
 
 document.getElementById("imindbtn").addEventListener("click", function () {
-  window.open("https://github.com/Hari3199/coding-guru-1234", "_blank");
+  window.open("https://github.com/muzammil6786/coding-guru-1234", "_blank");
 });

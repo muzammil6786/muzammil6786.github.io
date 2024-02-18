@@ -371,6 +371,40 @@ span {
   margin-top: 2rem;
   cursor: pointer;
 }
+.contact p {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: white;
+}
+.contact-info h3{
+  font-size :1.9rem;
+}
+
+.contact-details {
+  margin-top: 30px;
+  text-align: left;
+  
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  color:var(--main-color);
+}
+
+@media screen and (max-width: 768px) {
+  .contact h2 {
+    font-size: 2rem;
+  }
+  
+  .contact p {
+    font-size: 1rem;
+  }
+  
+  .contact-details p {
+    font-size: 1rem;
+  }
+}
 
 /* Footer */
 
