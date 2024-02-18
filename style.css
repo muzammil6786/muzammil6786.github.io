@@ -425,6 +425,10 @@ span {
   section {
     padding: 10rem 3% 2rem;
   }
+  .statistics{
+    padding: 10rem 3% 2rem;
+
+  }
 
   .skills {
     padding-bottom: 7rem;
@@ -437,6 +441,26 @@ span {
   .footer {
     padding: 2rem 3%;
   }
+}
+/* stats responsive */
+@media screen and (min-width: 768px) {
+  .statistics_container {
+    flex-direction: row;
+  }
+}
+.statistics {
+  padding: 20px;
+}
+
+.statistics_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.statistics_container img {
+  max-width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -511,6 +535,8 @@ span {
     grid-template-columns: repeat(2, 1fr);
   }
 
+
+
   .contact h2 {
     margin-bottom: 3rem;
   }
@@ -518,6 +544,7 @@ span {
   .footer {
     flex-direction: column-reverse;
   }
+  
 }
 
 @media (max-width: 617px) {
@@ -801,9 +828,6 @@ text.ContributionCalendar-label {
   align-items:center;
   justify-content:space-evenly;
   padding: 40px;
-
-/*   
-  background-color: black;  */
 }
 .section_subtitle{
   font-size: large;
