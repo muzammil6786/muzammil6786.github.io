@@ -168,7 +168,7 @@ span {
   background: black;
 }
 
-.home-img img {
+.home-img img{
   width: 25vw;
   border-radius: 50%;
   background-color: var(--text-color);
@@ -862,7 +862,9 @@ text.ContributionCalendar-label {
   align-items:center;
   justify-content:space-evenly;
   padding: 40px;
+  margin: 50px;
 }
 .section_subtitle{
   font-size: large;
+  margin-left: 80px;
 }
