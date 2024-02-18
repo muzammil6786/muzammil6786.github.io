@@ -160,7 +160,7 @@ span {
 }
 
 /* About Section */
-.about {
+#about{
   display: flex;
   justify-content: center;
   align-items: center;
